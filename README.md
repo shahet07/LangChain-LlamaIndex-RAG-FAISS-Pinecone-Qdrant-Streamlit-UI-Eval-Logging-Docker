@@ -131,8 +131,3 @@ python src/rag_query_qdrant.py --collection $QDRANT_COLLECTION --question "How t
 - **Observability**: JSONL **metrics logging** (latency, token estimate, source count) + `reports/eval_report.md`.
 - **Swap-in backends**: FAISS local for dev; **Pinecone/Qdrant** for scale without code rewrites.
 - **Portability**: **Dockerfile** + `Makefile` targets; easy to run locally or in CI.
-
-
-## Source and license
-
-Imported from [ileanabucur/LangChain-LlamaIndex-RAG-FAISS-Pinecone-Qdrant-Streamlit-UI-Eval-Logging-Docker](https://github.com/ileanabucur/LangChain-LlamaIndex-RAG-FAISS-Pinecone-Qdrant-Streamlit-UI-Eval-Logging-Docker). Original project copyright © 2025 Ileana Bucur. The original MIT license is preserved in [LICENSE](LICENSE). This repository starts with a fresh import history.
