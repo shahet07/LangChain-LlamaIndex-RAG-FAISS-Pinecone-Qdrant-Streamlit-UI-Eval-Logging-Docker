@@ -1,0 +1,3 @@
+Evaluation for RAG often includes answer correctness, citation faithfulness, and latency.
+For quick baselines, measure top-k retrieval accuracy and simple lexical overlap between answer and sources.
+Production systems also track token usage, throughput, and cost.

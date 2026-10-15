@@ -1,0 +1,3 @@
+Chunking helps the retriever find relevant passages. Typical chunk sizes are 500-1500 characters
+with small overlaps. Embeddings are computed for each chunk and stored in a vector database such as FAISS.
+During a query, the retriever returns top-k chunks for the LLM to read.
